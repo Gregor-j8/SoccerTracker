@@ -36,11 +36,11 @@ MIN_CONFIDENCE = 0.5
 REQUIRE_TEAM_ASSIGNMENT = True
 
 DB_CONFIG = {
-    "host": os.getenv("DB_HOST", "localhost"),
-    "port": int(os.getenv("DB_PORT", "5432")),
-    "database": os.getenv("DB_NAME", "soccer_tracking"),
-    "user": os.getenv("DB_USER", "postgres"),
-    "password": os.getenv("DB_PASSWORD", ""),
+"host": os.getenv("DB_HOST", "localhost"),
+"port": int(os.getenv("DB_PORT", "5432")),
+"database": os.getenv("DB_NAME", "soccer_tracking"),
+"user": os.getenv("DB_USER", "postgres"),
+"password": os.getenv("DB_PASSWORD", ""),
 }
 
 DB_CONNECTION_STRING = (
